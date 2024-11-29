@@ -1,0 +1,89 @@
+/* Updated CSS for a lighter background theme */
+
+/* Quiz Container */
+.quiz-container {
+    margin: 50px auto;
+    padding: 20px;
+    width: 110%;
+    background-color: #a763a5; /* Light greenish background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Quiz Header */
+.quiz-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Quiz Question */
+.quiz-question {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    
+}
+
+/* Quiz Options */
+.quiz-options {
+    margin: 20px 0;
+}
+
+.quiz-options label {
+    display: block;
+    padding: 10px;
+    background-color: #be92b7; /* Light mint green for options */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quiz-options label:hover {
+    background-color: #b13e95; /* Slightly darker mint green on hover */
+}
+
+/* Submit Button */
+button.submit-btn {
+    padding: 10px 20px;
+    background-color: #970083; /* Light blue for button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.submit-btn:hover {
+    background-color: #b12c7e; /* Brighter blue on hover */
+}
+/* Input field for user name */
+#name-input-container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#name-input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+#start-quiz-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #6200ee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-quiz-btn:hover {
+    background-color: #3700b3;
+}

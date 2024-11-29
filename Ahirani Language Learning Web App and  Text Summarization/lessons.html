@@ -1,0 +1,208 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahirani Learning Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+     * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(63, 4, 63);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(154, 97, 224);
+            font-size: 1.05rem;
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin-top: 2px;
+        }
+
+        .leftSection p {
+            font-size: 1rem;
+        }
+
+        .rightSection img {
+            width: 70%;
+            margin: 0px 150px;
+        }
+
+        .purple {
+            color: rgb(222, 0, 247);
+        }
+
+        #element {
+            color: rgb(222, 0, 247);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h6 {
+            font-size: 1.8rem;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .sentence {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .example {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .example-sentence {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .translation {
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        /* Added styles for the sections */
+        .section {
+            text-align: center;
+            margin: 50px 0;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .section:hover {
+            transform: scale(1.05);
+        }
+
+        .section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: rgb(222, 0, 247);
+        }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="left">Lessons to learn</div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lessons.html">Lessons</a></li>
+                <li><a href="Test.html">Test</a></li>
+                <li><a href="games.html">Summary</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="firstSection">
+        <div class="rightSection">
+            <img src="images/ahi.jpeg" alt="">
+        </div>
+    </section>
+
+    <!-- Added clickable sections -->
+    <a href="alphabet.html" class="section">
+        <section>
+            <h2>Alphabets</h2>
+        
+        </section>
+    </a>
+
+    <a href="barakhadi.html" class="section">
+        <section>
+            <h2>Barakhadi</h2>
+            
+        </section>
+    </a>
+
+    <a href="POS.html" class="section">
+        <section>
+            <h2>Parts of Speech</h2>
+            
+        </section>
+    </a>
+
+    <a href="sentence.html" class="section">
+        <section>
+            <h2>Sentences</h2>
+            
+        </section>
+    </a>
+</main>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</body>
+</html>

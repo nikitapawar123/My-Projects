@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+
+    color: #850808;
+    line-height: 1.6;
+}
+
+/* Container styles */
+.divcontent {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+ 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Table styles */
+
+.tbltr{
+    color: purple;
+}
+
+.tbl {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ddd; /* Add border for better division */
+}
+
+.tblhead{
+    color: purple;
+}
+
+.tblhead td {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: #d1a9d5;
+   /* Add border for better division */
+}
+
+.tbltr td {
+    padding: 20px 0;
+}
+
+.tbltra td {
+    
+}
+
+
+
+/* Image styles */
+.tbl img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Center images horizontally */
+    margin: 0 auto; /* Center images horizontally */
+}
+
+/* Footer styles */
+#footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.clear {
+    clear: both;
+}

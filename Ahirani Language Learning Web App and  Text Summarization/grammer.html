@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar and Sentence Formation</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(63, 4, 63);
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgb(119, 30, 104);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #b5adad;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #133d74;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Test Your Knowledge</div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Grammar Test</h1>
+        <div class="question" id="name-input">
+            <p>Please enter your name:</p>
+            <input type="text" id="username" placeholder="Enter your name">
+        </div>
+        <div id="questions-section" style="display: none;">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. Fill up the answer: "What you will say in ahirani for 'Go' : ______?"</p>
+                <input type="text" id="answer-1" placeholder="Type your answer">
+            </div>
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. Fill up the answer: "What you will say in ahirani for 'Come in' : ______?"</p>
+                <input type="text" id="answer-2" placeholder="Type your answer">
+            </div>
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. Fill up the answer: "What you will say in ahirani for 'eat' : ______?"</p>
+                <input type="text" id="answer-3" placeholder="Type your answer">
+            </div>
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. Fill up the answer: "What you will say in ahirani for 'what is your name' : ______?"</p>
+                <input type="text" id="answer-4" placeholder="Type your answer">
+            </div>
+            <!-- Question 5 -->
+            <div class="question">
+                <p>5. Fill up the answer: "What you will say in ahirani for 'what are you doing' : ______?"</p>
+                <input type="text" id="answer-5" placeholder="Type your answer">
+            </div>
+            <button onclick="submitAnswers()">Submit</button>
+        </div>
+        <button id="start-test" onclick="startTest()">Start Test</button>
+    </div>
+
+    <script src="grammar.js"></script>
+</body>
+</html>
